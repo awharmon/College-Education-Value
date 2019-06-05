@@ -1,2 +1,13 @@
-# College-Education-Value
-My Capstone Project for General Assembly's Data Science Immersive course
+# The Value of an Education
+
+Every year, millions of high schoolers embark on their likely first major adventure of their lives, college.  Over the previous 1-2 years, they have spent time and money to research, visit, apply to these institutions with the hope of making the choice which will provide them the greatest opportunity to succeed in the world upon graduation.
+
+In this project, I looked at features of many colleges to determine how predictive those colleges (and those features) were of long term success.  Additionally, I chose to use more straightforward models for the sake of interpretability and also due to the limitations of available data.
+
+My largest challenge with this project was the self- or non-manditory reporting nature of available data.  Future investigations will hopefully be able to fine more complete and robust sources of data upon which to build the model, as my options were relatively limited.  In order to build the model with the available data, I removed many Colleges and Universities from the list.  These were mainly technical colleges and beauty schools as well, which is an interesting point and may be worth pursuing at a later date.  However these schools were not my primary focus as I wanted to look at more "mainstream" schools that may have name value but not necessarily something quantifiable.
+
+## The Results and Next Steps
+
+The results of my inquiry were predictable.  An increase in most metrics led to an increase in 10-year postgraduate salaries.  A few features, such as School Rank, had a negative relationship which follows logically.  The most interesting aspect of the data exploration was the fact that there seemed to be a large difference in outcome at the high end.  A few schools, such as Harvard, Yale, and Duke University, consistently performed above the rest and outside of the normal linear correlation.  This suggests that there is some aspect unique to these schools that pushes them above the rest.  My personal belief is that it is related to the prestige, name, and connections that go along with going to these elite schools, and further modeling may focus on identifying that.
+
+My next steps with this project will be to perform the same modeling on other targets, such as 2 and 5-year salaries, as there may be some interesting points related to the immediate post-graduate experience when your school matters even more (or perhaps it doesn't!).  Additionally, I will try other modeling techniques such as a CNN, but I would like to have more data in that case.
